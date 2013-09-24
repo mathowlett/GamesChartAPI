@@ -1,0 +1,66 @@
+<project name="AndroidLib" default="dist" basedir=".">
+   <description>Android Sample Library</description>
+   <!-- Setting global properties for this build -->
+   <property name="src" location="src" />
+   <property name="bin" location="bin" />
+ 
+   <target name="dist">
+      <jar destfile="GamesChartAPI.jar" basedir="bin/">
+         <!-- Use ** to include the directory recursively -->
+         <include name="com/**" />
+		<!-- <fileset file="assets/GC_icon.png"></fileset>
+		
+      	<fileset file="assets/1.png"></fileset>
+		<fileset file="assets/gci_0001_api_icon0002.png.png"></fileset>
+		<fileset file="assets/gci_0002_api_icon0003.png.png"></fileset>
+		<fileset file="assets/gci_0003_api_icon0004.png.png"></fileset>
+		<fileset file="assets/gci_0004_api_icon0005.png.png"></fileset>
+		
+		<fileset file="assets/gci_0005_api_icon0006.png.png"></fileset>
+		<fileset file="assets/gci_0006_api_icon0007.png.png"></fileset>
+		<fileset file="assets/gci_0007_api_icon0008.png.png"></fileset>
+		<fileset file="assets/gci_0008_api_icon0009.png.png"></fileset>
+		<fileset file="assets/gci_0009_api_icon0010.png.png"></fileset>
+		  	
+		<fileset file="assets/gci_0010_api_icon0011.png.png"></fileset>
+		<fileset file="assets/gci_0011_api_icon0012.png.png"></fileset>
+		<fileset file="assets/gci_0012_api_icon0013.png.png"></fileset>
+		<fileset file="assets/gci_0013_api_icon0014.png.png"></fileset>
+		<fileset file="assets/gci_0014_api_icon0015.png.png"></fileset>
+      	
+      	<fileset file="assets/gci_0015_api_icon0016.png.png"></fileset>
+      	<fileset file="assets/gci_0016_api_icon0017.png.png"></fileset>
+      	<fileset file="assets/gci_0017_api_icon0018.png.png"></fileset>
+      	<fileset file="assets/gci_0018_api_icon0019.png.png"></fileset>
+      	<fileset file="assets/gci_0019_api_icon0020.png.png"></fileset>
+      	<fileset file="assets/gci_0020_api_icon0021.png.png"></fileset>
+      	
+      	<fileset file="assets/gci_0021_api_icon0022.png.png"></fileset>
+      	<fileset file="assets/gci_0022_api_icon0023.png.png"></fileset>
+      	<fileset file="assets/gci_0023_api_icon0024.png.png"></fileset>
+      	<fileset file="assets/gci_0024_api_icon0025.png.png"></fileset>
+      	<fileset file="assets/gci_0025_api_icon0026.png.png"></fileset>
+      	
+      	<fileset file="assets/gci_0026_api_icon0027.png.png"></fileset>
+      	<fileset file="assets/gci_0027_api_icon0028.png.png"></fileset>
+      	<fileset file="assets/gci_0028_api_icon0029.png.png"></fileset>
+      	<fileset file="assets/gci_0029_api_icon0030.png.png"></fileset>
+      	<fileset file="assets/gci_0030_api_icon0031.png.png"></fileset>
+      	
+      	<fileset file="assets/gci_0031_api_icon0032.png.png"></fileset>
+	  	<fileset file="assets/gci_0032_api_icon0033.png.png"></fileset>
+	  	<fileset file="assets/gci_0033_api_icon0034.png.png"></fileset>
+	  	<fileset file="assets/gci_0034_api_icon0035.png.png"></fileset>
+	  	<fileset file="assets/gci_0035_api_icon0036.png.png"></fileset>
+      	
+      	<fileset file="assets/gci_0036_api_icon0037.png.png"></fileset>
+	  	<fileset file="assets/gci_0037_api_icon0038.png.png"></fileset>
+	  	<fileset file="assets/gci_0038_api_icon0039.png.png"></fileset>
+	  	<fileset file="assets/gci_0039_api_icon0040.png.png"></fileset>
+	  	<fileset file="assets/gci_0040_api_icon0041.png.png"></fileset>
+      	<fileset file="assets/gci_0041_api_icon0042.png.png"></fileset>-->
+      </jar>
+   </target>
+</project>
+
+

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:orientation="vertical" xmlns:android1="http://schemas.android.com/apk/res/android">
+
+	<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+	
+        <LinearLayout android:layout_width="100dp" android:layout_height="fill_parent" android:orientation="vertical" android1:padding="4dp">
+         <ImageView android:layout_width="64dp" android:layout_height="64dp" android:id="@+id/gcicon" android:layout_gravity="left" android1:padding="4dp"></ImageView>
+        <ImageView android:layout_width="64dp" android:layout_height="64dp" android:id="@+id/imview0" android:layout_gravity="left" android1:padding="4dp"></ImageView>
+		<ImageView android:layout_width="64dp" android:layout_height="64dp" android:id="@+id/imview1" android:layout_gravity="left" android1:padding="4dp"></ImageView>
+		<ImageView android:layout_width="64dp" android:layout_height="64dp" android:id="@+id/imview2" android:layout_gravity="left" android1:padding="4dp"></ImageView>
+		<ImageView android:layout_width="64dp" android:layout_height="64dp" android:id="@+id/imview3" android:layout_gravity="left" android1:padding="4dp"></ImageView>
+		<ImageView android:layout_width="64dp" android:layout_height="64dp" android:id="@+id/imview4" android:layout_gravity="left" android1:padding="4dp"></ImageView>
+        </LinearLayout>
+       
+        <LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:orientation="vertical" android1:padding="4dp">
+        <TextView android:layout_gravity="left" android:layout_height="64dp" android:scrollbars="vertical" android:id="@+id/gctext" android:layout_width="300dp" android1:padding="4dp"></TextView> 
+        
+        <TextView android:layout_gravity="left" android:layout_height="64dp" android:scrollbars="vertical" android:id="@+id/text0" android:layout_width="300dp" android1:padding="4dp"></TextView> 
+        <TextView android:layout_gravity="left" android:layout_height="64dp" android:scrollbars="vertical" android:id="@+id/text1" android:layout_width="300dp" android1:padding="4dp"></TextView> 
+        <TextView android:layout_gravity="left" android:layout_height="64dp" android:scrollbars="vertical" android:id="@+id/text2" android:layout_width="300dp" android1:padding="4dp"></TextView> 
+        <TextView android:layout_gravity="left" android:layout_height="64dp" android:scrollbars="vertical" android:id="@+id/text3" android:layout_width="300dp" android1:padding="4dp"></TextView> 
+        <TextView android:layout_gravity="left" android:layout_height="64dp" android:scrollbars="vertical" android:id="@+id/text4" android:layout_width="300dp" android1:padding="4dp"></TextView> 
+        </LinearLayout>
+        
+        
+       
+        
+    </LinearLayout>
+		
+	
+    
+</LinearLayout>
+
+
+
